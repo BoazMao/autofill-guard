@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Autofill Guard",
+  "version": "0.0.1",
+  "description": "Block browser autofill on websites you choose.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "Autofill Guard",
+    "default_popup": "popup.html"
+  }
+}
+

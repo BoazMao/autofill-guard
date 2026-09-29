@@ -1,0 +1,11 @@
+@keyframes autofill-guard-detected {
+  from { opacity: 1; }
+  to { opacity: 1; }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  animation-name: autofill-guard-detected !important;
+  animation-duration: 0.01s !important;
+}
+

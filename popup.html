@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Autofill Guard</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="brand-row">
+        <div class="shield" aria-hidden="true">AG</div>
+        <div>
+          <h1>Autofill Guard</h1>
+          <p id="hostname" class="hostname">Checking this page…</p>
+        </div>
+      </div>
+
+      <section class="control" aria-labelledby="toggle-label">
+        <div>
+          <div id="toggle-label" class="label">Block autofill</div>
+          <div id="status" class="status" aria-live="polite">Loading…</div>
+        </div>
+        <label class="switch">
+          <input id="site-toggle" type="checkbox" disabled>
+          <span class="slider"></span>
+          <span class="sr-only">Block autofill on this website</span>
+        </label>
+      </section>
+
+      <p class="hint">Changes take effect after reloading the page.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
