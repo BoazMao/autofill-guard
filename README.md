@@ -1,6 +1,6 @@
 # Autofill Guard
 
-A small Chrome Manifest V3 extension that blocks autofill on websites you choose.
+A small Chrome extension that blocks autofill on websites you choose.
 
 ## Install it locally
 
